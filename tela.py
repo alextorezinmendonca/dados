@@ -45,6 +45,7 @@ class GerarPDF:
         pdf.setFont("Helvetica-Oblique", 14)
 
         pdf.drawString(30,800,"Nome: ")
+        
         pdf.drawString(70,800, self.nome)
         pdf.drawString(245,800,"Idade")
         pdf.drawString(245,850, self.idade)
